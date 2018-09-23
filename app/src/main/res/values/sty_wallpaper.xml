@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Wallpaper" />
+
+    <style name="Wallpaper.Container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+    </style>
+
+    <style name="Wallpaper.Image">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+
+    <style name="Wallpaper.Image.Fullscreen">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:adjustViewBounds">false</item>
+    </style>
+
+    <style name="Wallpaper.Line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:background">@color/colorAlpha</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="ItemWallpaper.Text" parent="TextAppearance.AppCompat.Small">
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:lines">1</item>
+        <item name="android:padding">@dimen/layout_8dp</item>
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+
+    <style name="Wallpaper.Check">
+        <item name="android:theme">@style/CheckBox</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">top|end</item>
+        <item name="android:layout_margin">@dimen/layout_4dp</item>
+        <item name="android:clickable">false</item>
+    </style>
+
+</resources>

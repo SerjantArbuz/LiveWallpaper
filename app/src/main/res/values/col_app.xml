@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#353535</color>
+    <color name="colorPrimaryDark">#353535</color>
+    <color name="colorAccent">#e91e63</color>
+
+    <color name="colorBackground">#eeeeee</color>
+    <color name="colorBackgroundAccent">#ffffff</color>
+
+    <color name="colorDivider">#252525</color>
+
+    <color name="colorText">#353535</color>
+    <color name="colorIcon">#353535</color>
+
+    <color name="colorTextAccent">#f5f5f5</color>
+    <color name="colorIconAccent">#f5f5f5</color>
+    <color name="colorSecondAccent">#bdbdbd</color>
+
+    <color name="colorAlpha">#9cffffff</color>
+
+
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="file_provider_name">sgtmelon.livewallpaper.fileprovider</string>
+    <string name="file_name_format">yyyy-MM-dd_HH-mm-ss</string>
+
+    <string name="pref_title_work">Включить живые обои</string>
+    <string name="pref_key_work">key_work</string>
+
+    <string name="pref_header_change">Смена обоев</string>
+
+    <string name="pref_title_order">Порядок</string>
+    <string name="pref_key_order">key_order</string>
+
+    <string-array name="pref_name_order">
+        <item>По кругу</item>
+        <item>В разнобой</item>
+    </string-array>
+
+    <string name="pref_title_time">Время</string>
+    <string name="pref_key_time">key_time</string>
+
+    <string-array name="pref_name_time">
+        <item>30 секунд</item>
+        <item>30 минут</item>
+        <item>1 час</item>
+        <item>4 часа</item>
+        <item>8 часов</item>
+    </string-array>
+
+</resources>

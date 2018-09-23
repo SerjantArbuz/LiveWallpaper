@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="itemInfo"
+            type="sgtmelon.livewallpaper.app.model.ItemInfo" />
+
+    </data>
+
+    <androidx.cardview.widget.CardView
+        style="@style/Card"
+        app:cardBackgroundColor="@color/colorBackgroundAccent"
+        app:cardCornerRadius="@dimen/radius_2dp">
+
+        <LinearLayout style="@style/ItemInfo.Container">
+
+            <TextView
+                style="@style/ItemInfo.Text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.4"
+                android:ellipsize="end"
+                android:gravity="start"
+                android:maxLines="1"
+                android:text='@{itemInfo.label}' />
+
+            <TextView
+                style="@style/ItemInfo.Text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.6"
+                android:gravity="end"
+                android:text='@{itemInfo.value}'
+                android:textIsSelectable="true" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</layout>

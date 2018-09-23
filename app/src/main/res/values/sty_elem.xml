@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="NavigationView">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColorSecondary">@color/colorSecondAccent</item>
+    </style>
+
+    <style name="CheckBox" parent="AppTheme">
+        <item name="colorAccent">@color/colorIcon</item>
+        <item name="android:textColorSecondary">@color/colorIcon</item>
+    </style>
+
+    <style name="Card">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/card_margin_vertical</item>
+        <item name="android:layout_marginBottom">@dimen/card_margin_vertical</item>
+        <item name="android:layout_marginLeft">@dimen/card_margin_horizontal</item>
+        <item name="android:layout_marginRight">@dimen/card_margin_horizontal</item>
+    </style>
+
+    <style name="RecyclerView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:clipToPadding">false</item>
+        <item name="android:paddingBottom">@dimen/recycler_margin</item>
+        <item name="android:paddingTop">@dimen/recycler_margin</item>
+        <item name="android:scrollbars">vertical</item>
+    </style>
+
+    <style name="Fab" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">bottom|end</item>
+        <item name="android:layout_margin">@dimen/layout_8dp</item>
+        <item name="android:tint">@color/colorIconAccent</item>
+    </style>
+
+    <style name="TextInfo">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">@dimen/text_18sp</item>
+    </style>
+
+    <style name="Divider">
+        <item name="android:background">?attr/clDivider</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/layout_1dp</item>
+    </style>
+
+</resources>

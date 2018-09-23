@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import
+            alias="v"
+            type="android.view.View" />
+
+        <variable
+            name="size"
+            type="int" />
+
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/actMain_ll_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/inc_toolbar" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    style="@style/TextInfo"
+                    android:text="@string/message_page_empty"
+                    android:visibility='@{size == 0 ? v.VISIBLE : v.GONE}' />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/actMain_rv"
+                    style="@style/RecyclerView"
+                    android:visibility='@{size == 0 ? v.GONE : v.VISIBLE}' />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/actMain_fab"
+            style="@style/Fab"
+            app:srcCompat="@drawable/ic_add"
+            app:useCompatPadding="false" />
+
+        <ImageView
+            android:id="@+id/actMain_iv_expanded"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@null"
+            android:visibility="invisible" />
+
+    </FrameLayout>
+
+</layout>

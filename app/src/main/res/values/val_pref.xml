@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <bool name="pref_val_work_def">false</bool>
+
+    <integer name="pref_val_order_def">0</integer>
+
+    <integer name="pref_val_time_def">0</integer>
+
+    <integer-array name="pref_val_time">
+        <item>30000</item>      <!-- 30 секунд -->
+        <item>1800000</item>    <!-- 30 минут -->
+        <item>3600000</item>    <!-- 1 час -->
+        <item>14400000</item>   <!-- 4 часа -->
+        <item>28800000</item>   <!-- 8 часов -->
+    </integer-array>
+
+</resources>

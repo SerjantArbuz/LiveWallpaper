@@ -1,0 +1,49 @@
+<resources>
+
+    <string name="app_name">Живые обои</string>
+
+    <!-- Title's -->
+    <string name="title_act_main">Обои</string>
+    <string name="title_act_main_action">Выбрано:</string>
+
+    <string name="title_act_info">Об устройстве</string>
+    <string name="title_act_preference">Настройки</string>
+
+
+    <!-- Menu's -->
+    <string name="menu_add_title">Добавить обои</string>
+    <string name="menu_add_camera">Камера</string>
+    <string name="menu_add_gallery">Галлерея</string>
+
+    <string name="menu_main_delete">Удалить</string>
+    <string name="menu_main_info">Об устройстве</string>
+    <string name="menu_main_preference">Настройки</string>
+
+
+    <!-- Dialog buttons -->
+    <string name="dialog_btn_accept">Принять</string>
+    <string name="dialog_btn_cancel">Отмена</string>
+
+
+    <!-- Message's -->
+    <string name="message_file_save">Фото успешно сохранено</string>
+    <string name="message_file_error_complete">Не удалось подготовить файл</string>
+    <string name="message_file_error_copy">Не удалось подготовить файл</string>
+
+    <string name="message_wallpaper_set">Обои успешно установлены</string>
+    <string name="message_wallpaper_error_set">Не удалось установить обои</string>
+    <string name="message_wallpaper_error_find">Не удалось найти файл</string>
+
+    <string name="message_page_empty">Коллекция обоев пуста</string>
+
+
+
+    <!-- Device info -->
+    <string name="info_android">Версия Android:</string>
+    <string name="info_brand">Бренд:</string>
+    <string name="info_manufacturer">Производитель:</string>
+    <string name="info_model">Модель:</string>
+    <string name="info_diagonal">Диагональ:</string>
+    <string name="info_resolution">Разрешение:</string>
+
+</resources>

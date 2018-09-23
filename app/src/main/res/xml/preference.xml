@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <SwitchPreference
+        android:defaultValue="@bool/pref_val_work_def"
+        android:key="@string/pref_key_work"
+        android:title="@string/pref_title_work" />
+
+    <PreferenceCategory android:title="@string/pref_header_change">
+
+        <Preference
+            android:defaultValue="@integer/pref_val_order_def"
+            android:key="@string/pref_key_order"
+            android:title="@string/pref_title_order" />
+
+        <Preference
+            android:defaultValue="@integer/pref_val_time_def"
+            android:key="@string/pref_key_time"
+            android:title="@string/pref_title_time" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

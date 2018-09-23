@@ -1,0 +1,81 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="clDivider">@color/colorDivider</item>
+
+        <item name="android:windowBackground">@color/colorBackground</item>
+    </style>
+
+    <style name="AppTheme.UI">
+        <item name="styleToolbar">@style/Toolbar</item>
+        <item name="themePopup">@style/PopupTheme</item>
+
+        <item name="alertDialogStyle">@style/AlertDialog</item>
+        <item name="alertDialogTheme">@style/AlertDialog</item>
+
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">false</item>
+
+        <item name="android:navigationBarColor" tools:targetApi="lollipop">@color/colorPrimary
+        </item>
+        <item name="android:navigationBarDividerColor" tools:targetApi="o_mr1">
+            @color/colorDivider
+        </item>
+    </style>
+
+    <style name="Fullscreen" parent="AppTheme">
+        <item name="clDivider">@color/colorPrimary</item>
+
+        <item name="android:windowBackground">@color/colorPrimary</item>
+
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="Fullscreen.UI">
+        <item name="styleToolbar">@style/Toolbar.Fullscreen</item>
+        <item name="themePopup">@style/PopupTheme</item>
+
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">false</item>
+
+        <item name="android:navigationBarColor" tools:targetApi="lollipop">@color/colorPrimary
+        </item>
+        <item name="android:navigationBarDividerColor" tools:targetApi="o_mr1">
+            @color/colorPrimary
+        </item>
+    </style>
+
+    <style name="AlertDialog" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:theme">@style/PopupTheme</item>
+        <item name="android:elevation" tools:targetApi="lollipop">@dimen/elevation_4dp</item>
+        <item name="android:stateListAnimator" tools:targetApi="lollipop">@null</item>
+    </style>
+
+    <style name="Toolbar.Fullscreen">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:theme">@style/PopupTheme</item>
+        <item name="android:elevation" tools:targetApi="lollipop">@dimen/elevation_0dp</item>
+    </style>
+
+    <style name="PopupTheme" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="android:textColorPrimary">@color/colorTextAccent</item>
+        <item name="android:textColorSecondary">@color/colorTextAccent</item>
+        <item name="colorControlNormal">@color/colorIconAccent</item>
+        <item name="actionMenuTextColor">@color/colorTextAccent</item>
+    </style>
+
+</resources>

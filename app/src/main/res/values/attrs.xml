@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ColorTheme">
+        <attr name="clDivider" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ToolbarTheme">
+        <attr name="styleToolbar" format="integer" />
+        <attr name="themePopup" format="integer" />
+    </declare-styleable>
+
+</resources>
